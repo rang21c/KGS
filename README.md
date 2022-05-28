@@ -5,10 +5,10 @@
 - 프로젝트명 : 인공지능 자연어 처리 기반 지식그래프 검색 기술 개발
 - 배포 링크 : [KGS-PROJECT](http://kgs-project.ml/)
 
-# 시스템 구조도
+## 시스템 구조도
 ![구조도](https://user-images.githubusercontent.com/33370179/170817504-2615caef-e9ea-4da6-8bf6-06b1ccb4147f.svg)
 
-# 모듈 설명
+## 모듈 설명
 ### Data Source
 
 ---
@@ -20,7 +20,7 @@
 ---
 ### Frontend
 
-# 팀원 소개
+## 팀원 소개
 ### 팀장 류화랑(rang21c) [github](https://github.com/rang21c)
 - Model
   - NER Tag 쌍 추출
