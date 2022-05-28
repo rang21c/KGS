@@ -1,0 +1,6 @@
+beautifulsoup4
+requests
+datetime
+pandas
+kss
+python-graphql-client

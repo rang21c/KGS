@@ -1,0 +1,24 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE")
+}
+
+model News {
+  id         Int      @id @default(autoincrement())
+  stampTime  DateTime @default(now()) //현재시간
+  uniqueId   String   @unique //뉴스 고유 번호
+  url        String //뉴스 링크
+  urlOrigin  String //뉴스 원본링크
+  title      String //뉴스 제목
+  content    String @db.VarChar(10000) //뉴스 본문
+  main       String //뉴스 대분류
+  sub        String //뉴스 소분류
+  uploadTime DateTime //뉴스 업로드 시간
+}
