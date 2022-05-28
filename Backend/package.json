@@ -1,0 +1,26 @@
+{
+  "name": "neo4j-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "db:studio":"npx prisma studio",
+    "db:push":"npx prisma db push",
+    "db:pull":"npx prisma db pull",
+    "db:gen":"npx prisma generate"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@neo4j/graphql": "3.0.3",
+    "@neo4j/graphql-ogm": "3.1.0",
+    "@prisma/client": "3.14.0",
+    "apollo-server": "3.6.7",
+    "graphql": "16.3.0",
+    "neo4j-driver": "4.4.5",
+    "nodemon": "2.0.16",
+    "prisma": "3.14.0"
+  }
+}
