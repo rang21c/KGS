@@ -1,0 +1,14 @@
+UNK
+O
+PS-B
+PS-I
+LC-B
+LC-I
+OG-B
+OG-I
+DT-B
+DT-I
+TI-B
+TI-I
+QT-B
+QT-I

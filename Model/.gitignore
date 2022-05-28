@@ -1,0 +1,13 @@
+model_api/.cache
+model_api/node_modules
+model_api/model_log.log
+NER_RE/__pycache__
+NER_RE/.cache
+NER_RE/.idea
+NER_RE/mecab-ko-dic
+NER_RE/mecab-ko-dic-2.1.1-20180720
+NER_RE/model
+KoBERT-NER/__pycache__
+KoBERT-NER/data/cached_whynot-ner_kobert_100_test
+KoBERT-NER/data/cached_whynot-ner_kobert_100_train
+server.log
