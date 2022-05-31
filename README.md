@@ -11,8 +11,20 @@
 ## 모듈 설명
 ### Data Source
 
+네이버 뉴스 기사를 실시간으로 크롤링해 MySQL DB에 저장하는 모듈
+
+파이썬 파일은 Ubuntu crontab 위에서 동작, DB 삽입 API 서버는 Nginx, pm2 위에서 동작
+
 ---
 ### Model
+
+- 개체명 인식 모델(NER)
+  - Input : 문장
+  - Output : 개체명 태그가 달린 문장
+
+- 관계 추출 모델(RE)
+  - Input : e1, e2 태그가 달린 문장
+  - Output : 두 엔티티 사이의 관계
 
 ---
 ### Backend
