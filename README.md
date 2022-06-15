@@ -13,7 +13,7 @@
 
 네이버 뉴스 기사를 실시간으로 크롤링해 MySQL DB에 저장하는 모듈
 
-파이썬 파일은 Ubuntu crontab 위에서 동작, DB 삽입 API 서버는 Nginx, pm2 위에서 동작
+파이썬 파일은 Ubuntu crontab 위에서 동작, DB 삽입 API 서버는 Nginx 위에서 동작, 프로세스 매니저는 pm2를 이용
 
 ---
 ### Model
@@ -29,8 +29,18 @@
 ---
 ### Backend
 
+모델에서 받은 두 개체의 메타 정보, 관계를 이용해 Neo4j GraphDB에 지식그래프를 구성하는 모듈
+
+GraphDB 삽입 API 서버는 Nginx 위에서 동작, 프로세스 매니저는 pm2를 이용
+
 ---
 ### Frontend
+
+Neo4j GraphDB에 있는 정보를 이용해 웹 페이지에 지식그래프를 시각화 하고 검색 할 수 있게 하는 모듈
+
+React.js 를 사용하며, D3.js 를 이용해 지식그래프 시각화
+
+---
 
 ## 팀원 소개
 ### 팀장 류화랑(rang21c) [github](https://github.com/rang21c)
