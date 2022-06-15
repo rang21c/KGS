@@ -29,7 +29,7 @@
 ---
 ### Backend
 
-모델에서 받은 두 개체의 메타 정보, 관계를 이용해 Neo4j GraphDB에 지식그래프를 구성하는 모듈
+모델에서 받은 두 엔티티의 메타 정보, 관계를 이용해 Neo4j GraphDB에 지식그래프를 구성, Frontend에 API를 제공 하는 모듈
 
 GraphDB 삽입 API 서버는 Nginx 위에서 동작, 프로세스 매니저는 pm2를 이용
 
