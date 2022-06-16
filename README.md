@@ -18,6 +18,7 @@
 ---
 ### Model
 
+NER, RE 모델 모두 KoBERT 를 Finetuning 하여 사용
 - 개체명 인식 모델(NER)
   - Input : 문장
   - Output : 개체명 태그가 달린 문장
