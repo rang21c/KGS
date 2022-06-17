@@ -43,6 +43,11 @@ React.js 를 사용하며, D3.js 를 이용해 지식그래프 시각화
 
 ---
 
+## 지식그래프 검색 시스템
+![image](https://user-images.githubusercontent.com/33370179/174234908-0ac81186-502c-417b-a1f8-7905e8244cba.png)
+
+
+
 ## 팀원 소개
 ### 팀장 류화랑(rang21c) [github](https://github.com/rang21c)
 - Model
