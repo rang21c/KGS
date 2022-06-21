@@ -80,7 +80,7 @@ React.js 를 사용하며, D3.js 를 이용해 지식그래프 시각화
 - Model
   - NER Model Fine-tuning 및 전처리
   - NER Tag 쌍 추출
-  - NER Model Fine-tuning 및 전처리
+  - RE Model Fine-tuning 및 전처리
 
 <br/>
 
